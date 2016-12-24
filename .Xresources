@@ -1,0 +1,46 @@
+! Using XLFD (created via e.g. xfontsel)
+!URxvt*font: !-misc-inconsolata-medium-r-normal-0-0-0-0-m-0-iso8859-1
+! Using Xft
+URxvt*font: xft:inconsolata:size=11
+
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+Xft.autohint:   false
+Xft.lcdfilter:  lcddefault
+
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.scrollBar_floating: false
+URxvt.scrollstyle: rxvt  
+
+*background: #1D1B1B
+*foreground: #c8c8c8
+
+!black
+*color0:  #626262
+*color8:  #626262
+!red
+*color1:  #f92671
+*color9:  #ff669d
+!green
+*color2:  #a6e22e
+*color10: #beed5f
+!yellow
+*color3:  #fd971f
+*color11: #e6db74
+!blue
+*color4:  #1692d0
+*color12: #66d9ef
+!magenta
+*color5:  #9e6ffe
+*color13: #df92f6
+!cyan
+*color6:  #5e7175
+*color14: #a3babf
+!white
+*color7:  #ffffff
+*color15: #ffffff
+
