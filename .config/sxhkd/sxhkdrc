@@ -1,0 +1,10 @@
+#alt = super
+
+alt + shift + Escape
+	pkill -x panel; bspc quit
+
+alt + shift + Return
+	urxvt
+
+alt + {_,shift +}{1-5,0}
+	bspc {desktop -f,node -d} '^{1-5,6}'
