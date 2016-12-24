@@ -1,0 +1,8 @@
+#! /bin/sh
+
+panel &
+
+bspc config focus_follows_pointer true
+bspc monitor -d I II III IV V
+
+~/.config/polybar/launch.sh
